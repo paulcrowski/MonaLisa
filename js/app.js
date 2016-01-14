@@ -59,7 +59,7 @@ function rT () {
 }
 // random unique picture from array, conected to correct anwser
 function randomPicture() {
-    myPicture.src = gameEngineData.gameArray[gameEngineData.gamePlay] +".jpg";
+    myPicture.src = "img/"+gameEngineData.gameArray[gameEngineData.gamePlay] +".jpg";
     gameEngineData.gameAnwser = gameEngineData.gamePaintings[gameEngineData.gameArray[gameEngineData.gamePlay]];
 }
 // random painting generator  to the array
